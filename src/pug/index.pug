@@ -1,6 +1,14 @@
-doctype html
-html
-  include head.pug
-  body
-    include header.pug
-    include scripts.pug
+extends ../assets/nerdmanship/pug/boiler.pug
+
+block title
+  title Nerdmanship template
+
+block stylesheets
+  +style('css/index.css')
+
+block content
+  include content
+  //- +controls("master")
+
+append foot
+  +script("js/index.js")

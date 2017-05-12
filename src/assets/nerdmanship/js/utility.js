@@ -1,8 +1,9 @@
 function random(min, max) {
   if (max === null) { max = min; min = 0; }
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  return min + Math.random() * (max - min);
 }
 
+// Get returns a value on destination range based on the input value on source range
 function map(value, sourceMin, sourceMax, destinationMin, destinationMax) {
   return destinationMin + (destinationMax - destinationMin) * ((value - sourceMin) / (sourceMax - sourceMin)) || 0;
 }
@@ -23,25 +24,3 @@ function degreesToRads(degrees) {
 function radsToDegrees(rads) {
   return rads / Math.PI * 180;
 }
-
-/*
-
-data = {
-  x: [],
-  y: [],
-  scale: []
-}
-
-TweenMax.staggerFromTo(obj.property, 1, { obj.property.value[i]: 0 }, { obj.property.value[i]: 1 }, 0.1)
-
-*/
-
-/*
-
-extend particle class
-
-followLeader(leader, acceleration) {
-  
-}
-
-*/

@@ -27,7 +27,7 @@ function controlTimeline(timeline) {
   slider.addEventListener("mouseup", function(){ 
     if (playing) {
       timeline.resume(); }
-  })
+  });
       
 
   read("mousedown");
@@ -49,14 +49,11 @@ function controlTimeline(timeline) {
       playing = true;
       timeline.resume();
     }
-  })
+  });
 }
 
 function updateStats() {
-    slider.value = this.progress();
-    duration.innerHTML = this.duration().toFixed(2);
-    time.innerHTML = this.time().toFixed(2);
-  }
-
-//  INIT
-controlTimeline(tlFighters);
+  slider.value = this.progress();
+  duration.innerHTML = this.duration().toFixed(2);
+  time.innerHTML = this.time().toFixed(2);
+}
