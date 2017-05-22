@@ -1181,11 +1181,47 @@
 		"sC": 1,
 		"tS": 1
 		},
-	"\/src\/assets\/nerdmanship\/js\/particles.js": {
+	"\/src\/assets\/nerdmanship\/js\/OrbitingParticle.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/nerdmanship\/js\/particles.js",
+		"oAP": "\/dist\/assets\/nerdmanship\/js\/OrbitingParticle.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/src\/assets\/nerdmanship\/js\/ParticleNode.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/dist\/assets\/nerdmanship\/js\/ParticleNode.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/src\/assets\/nerdmanship\/js\/Particles.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/dist\/assets\/nerdmanship\/js\/Particles.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/src\/assets\/nerdmanship\/js\/PuppetSvg.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/dist\/assets\/nerdmanship\/js\/PuppetSvg.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/src\/assets\/nerdmanship\/js\/SvgNode.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/dist\/assets\/nerdmanship\/js\/SvgNode.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 1
@@ -1322,7 +1358,7 @@
 	"displayValue": "template",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-girlfriend",
-	"lastBuiltDate": 516289407
+	"lastBuiltDate": 517119056
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

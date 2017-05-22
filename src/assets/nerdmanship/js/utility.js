@@ -3,6 +3,12 @@ function random(min, max) {
   return min + Math.random() * (max - min);
 }
 
+function randomInt(min, max){
+  if (max === null) { max = min; min = 0; }
+  return Math.floor( min + Math.random() * ( max - min + 1 ) );
+}
+
+
 // Get returns a value on destination range based on the input value on source range
 function map(value, sourceMin, sourceMax, destinationMin, destinationMax) {
   return destinationMin + (destinationMax - destinationMin) * ((value - sourceMin) / (sourceMax - sourceMin)) || 0;
